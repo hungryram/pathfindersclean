@@ -5,6 +5,7 @@ social_media:
   twitter: ''
   facebook: https://www.facebook.com/PathfindersCarpetCleaningService/
   pinterest: ''
+  yelp: https://www.yelp.com/biz/pathfinders-carpet-cleaning-pasadena
 contact_information:
   name: ''
   phone: ''
@@ -14,3 +15,5 @@ search_engine_optimization:
     twitter_username: ''
   facebook:
     app_id: ''
+  title_tag: ''
+  meta_description: ''
