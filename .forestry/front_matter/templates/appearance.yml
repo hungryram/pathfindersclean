@@ -22,3 +22,5 @@ fields:
       maxSize: 1
     label: Favicon
   label: Branding
+pages:
+- data/appearance.yaml
