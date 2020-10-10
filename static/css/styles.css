@@ -1,0 +1,134 @@
+/* GLOBAL */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 2;
+}
+
+p.is-size-7 {
+    font-size: .85rem!important;
+}
+
+body p {
+    font-weight: 300;
+}
+
+div.h-line {
+    width: 100px;
+    height: 3px;
+    background: #7F1010;
+    margin: 20px 0;
+}
+
+a.primary-btn {
+    background: #7F1010;
+    color: #fff;
+    padding: 15px 30px;
+    display: block;
+    margin-top: 20px;
+    width: calc(100% - 50%) !important;
+    text-align: center;
+}
+
+button.primary-btn {
+    box-shadow: none;
+    border: none;
+    width: 200px;
+}
+
+a.border-button {
+    color: #7F1010;
+    border-bottom: 2px solid #7F1010;
+    padding-bottom: 5px;
+}
+
+/* OVERWRITE */
+
+@media screen and (min-width: 1024px){
+    nav.navbar {
+        min-height: 5.25rem;
+    }
+}
+
+@media screen and (min-width: 1408px){
+    div.container {
+        max-width: 1200px;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    section.hero.is-large .hero-body {
+        padding: 12rem 1.5rem;
+    }
+}
+
+/* NAVBAR*/
+
+a.navbar-item img {
+    max-height: 4.75rem;
+}
+
+/* INTRO */
+
+@media screen and (min-width:768px){
+    div.cta-box {
+        margin-top: -200px;
+    }
+}
+
+div.cta-box input.input,
+div.cta-box textarea.textarea {
+    border-bottom: 1px solid #000!important;
+    border-top: 0;
+    border-bottom: 0;
+    border-right: 0;
+    border-left: 0;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+div.cta-box label {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+div.cta-box form {
+    padding: 10px 30px;
+}
+
+div.cta-box button {
+    background: #7F1010;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* HOME BACKGROUND SECTION */
+
+div.background-text {
+    background: linear-gradient(rgba(0,89,134,0.9),rgba(0,89,134,0.9)),
+    url("/uploads/backgroundlivingroom.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* FOOTER */
+
+footer.footer {
+    background: #202020;
+}
+
+div.top-footer {
+    background: #7F1010;
+}
+
+footer.footer a,
+footer.footer li,
+footer.footer p,
+footer.footer strong,
+footer.footer small {
+    color: #fff;
+    font-size: .87rem;
+}

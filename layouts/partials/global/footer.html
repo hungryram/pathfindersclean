@@ -1,0 +1,129 @@
+{{ $footerContact := .Site.Data.profile.primary_contact }}
+{{ $footerLocation := .Site.Data.profile.location_information }}
+{{ $footerDesign := .Site.Data.design.footer }}
+{{ $footerSocial := .Site.Data.profile.social_media }}
+<div class="top-footer">
+  <div class="section">
+    <div class="container">
+      <div class="columns">
+        <div class="column">
+          <div class="level">
+            <div class="level-left">
+              <div class="level-item">
+                <div>
+                  <h3 class="title is-4 has-text-white">Work with our Reliable Team</h3>
+                  <p class="has-text-white">Always available to assist. Get in touch by email or phone</p>
+                </div>
+              </div>
+            </div>
+            <div class="level-right">
+              <div class="level-item">
+                <div>
+                  <a href="/privacy-policy" style="background: #fff;padding:20px 30px;color: #222">Contact the Team</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-variable is-8">
+      <div class="column">
+        <img src="/uploads/pathfinderscleanlogo2.png" alt="" width="80">
+        <p>We are a full-service professional carpet cleaning company. We are family owned and operated and have been in business since 1976.</p>
+        <ul class="footer-social">
+          {{ if $footerSocial.facebook }}<li><a href="{{ $footerSocial.facebook }}" target="_blank">Facebook</a></li>{{ end }}
+          {{ if $footerSocial.instagram }}<li><a href="{{ $footerSocial.instagram }}" target="_blank">Instagram</a></li>{{ end }}
+          {{ if $footerSocial.twitter }}<li><a href="{{ $footerSocial.twitter }}" target="_blank">Twitter</a></li>{{ end }}
+          {{ if $footerSocial.pinterest }}<li><a href="{{ $footerSocial.pinterest }}" target="_blank">Pinterest</a></li>{{ end }}
+          {{ if $footerSocial.youtube }}<li><a href="{{ $footerSocial.youtube }}" target="_blank">Youtube</a></li>{{ end }}
+          {{ if $footerSocial.linkedin }}<li><a href="{{ $footerSocial.linkedin }}" target="_blank">Linkedin</a></li>{{ end }}
+          {{ if $footerSocial.zillow }}<li><a href="{{ $footerSocial.zillow }}" target="_blank">Zillow</a></li>{{ end }}
+          {{ if $footerSocial.redfin }}<li><a href="{{ $footerSocial.redfin }}" target="_blank">Redfin</a></li>{{ end }}
+          {{ if $footerSocial.realtor }}<li><a href="{{ $footerSocial.realtor }}" target="_blank">Realtor</a></li>{{ end }}
+          {{ if $footerSocial.reddit }}<li><a href="{{ $footerSocial.reddit }}" target="_blank">Reddit</a></li>{{ end }}
+          {{ if $footerSocial.trulia }}<li><a href="{{ $footerSocial.trulia }}" target="_blank">Trulia</a></li>{{ end }}
+          {{ if $footerSocial.yelp }}<li><a href="{{ $footerSocial.yelp }}" target="_blank">Yelp</a></li>{{ end }}
+        </ul>
+      </div>
+      <div class="column">
+        <h4 class="title is-6 has-text-white">Contact & Location</h4>
+        <p>916 Vista Rd. Pasadena, TX 77504</p>
+        <p>Baytown (281) 422-0500</p>
+        <p>Channelview (713) 455-1919</p>
+        <p>Clearlake (281) 480-4880</p>
+        <p>Pasadena (713) 947-1373</p>
+      </div>
+      <div class="column">
+        <h4 class="title is-6 has-text-white">Quick Links</h4>
+        <ul>
+          <li><a href="">Services</a></li>
+          <li><a href="">FAQ</a></li>
+          <li><a href="">Rug Cleaning</a></li>
+          <li><a href="">Carpet Cleaning</a></li>
+        </ul>
+      </div>
+      <div class="column">
+        <h4 class="title is-6 has-text-white">Hours</h4>
+        <p><strong>Mon - Fri</strong> 7:30 am to 5:30 pm</p>
+        <p><strong>Saturday</strong> 8:00 am to 2:00 pm</p>
+        <p><strong>Sunday</strong> Closed</p>
+      </div>
+    </div>
+    <hr>
+
+    <div class="columns mb-0">
+      <div class="column">
+        <div class="level">
+          <div class="level-left">
+            <div class="level-item">
+              <small class="is-size-7">&copy; Copyright {{ dateFormat "2006" now }}, {{ .Site.Data.profile.website_title }} &middot; <a href="https://hungryram.com" target="_blank">Website Developed by Hungry Ram</a></small>
+            </div>
+          </div>
+          <div class="level-right">
+            <div class="level-item">
+              <a href="/privacy-policy" class="is-size-7 mr-4">Privacy Policy</a>
+              <a href="/privacy-policy" class="is-size-7">Terms and Conditions</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+</footer>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="{{.Site.BaseURL}}/js/main.min.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+
+    // Get all "navbar-burger" elements
+    const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+  
+    // Check if there are any navbar burgers
+    if ($navbarBurgers.length > 0) {
+  
+      // Add a click event on each of them
+      $navbarBurgers.forEach( el => {
+        el.addEventListener('click', () => {
+  
+          // Get the target from the "data-target" attribute
+          const target = el.dataset.target;
+          const $target = document.getElementById(target);
+  
+          // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+          el.classList.toggle('is-active');
+          $target.classList.toggle('is-active');
+  
+        });
+      });
+    }
+  
+  });
+</script>
+</body>
+</html>

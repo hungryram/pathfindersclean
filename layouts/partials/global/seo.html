@@ -1,0 +1,35 @@
+{{ $seo := .Site.Data.profile.search_engine_optimization }}
+{{ $logo := .Site.Data.design.branding.logo }}
+<!-- OPEN GRAPH -->
+<meta property="og:url" content="{{ .Permalink }}" />
+{{- if $.IsHome -}}
+    <meta property="og:image" content="{{ $logo | absURL }}"/>
+    <meta property="og:title" content="{{ $seo.title_tag }}"/>
+    <meta property="og:description" content="{{ $seo.meta_description }}"/>
+    <meta property="og:type" content="website" />
+{{ else }}
+    {{ with .Params.featured_image | default $logo | default .Params.photo }}
+        <meta property="og:image" content="{{ . | absURL }}">
+    {{ end }}
+    {{- with .Params.title_tag | default .Params.search_engine_optimization.title_tag -}}
+        <meta property="og:title" content="{{ . }}"/>
+    {{- end }}
+    {{ with .Params.meta_description | default .Params.search_engine_optimization.meta_description }}
+        <meta property="og:description" content="{{ . }}" />
+    {{- end }}
+        <meta property="og:type" content="{{ if in .Permalink "blog" }}article{{ else }}website{{ end }}"/>
+{{- end -}}
+<!-- END OPEN GRAPH -->
+
+<!-- BEGIN SEO -->
+{{- if $.IsHome -}}
+    <title>{{ $seo.title_tag }}</title>
+    <meta name="description" content="{{ $seo.meta_description }}">
+{{ else }}
+    {{ with .Params.title_tag | default .Params.search_engine_optimization.title_tag }}
+    <title>{{ . }}</title>
+    {{ end }}
+    {{ with .Params.meta_description | default .Params.search_engine_optimization.meta_description }}
+    <meta name="description" content="{{ . }}">
+    {{ end }}
+{{- end -}}
