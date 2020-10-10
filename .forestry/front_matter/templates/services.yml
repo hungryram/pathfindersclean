@@ -37,4 +37,5 @@ fields:
   template: seo
   label: SEO
 pages:
+- content/services/carpet-upholstery.md
 - content/services/rug-cleaning.md
