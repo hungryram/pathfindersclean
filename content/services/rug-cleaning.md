@@ -3,7 +3,7 @@ body = "Area and oriental carpets can add loads of beauty to your home. They mak
 featured_image = "/uploads/rug-cleaning.jpg"
 heading = "Area Rug Cleaning"
 meta_description = ""
-subtitle = "Persian Rugs - Oriental Rugs - Wool Rugs and More"
+subtitle = "Persian Rugs, Oriental Rugs, Wool Rugs and More"
 title = "Rug Cleaning"
 title_tag = ""
 
