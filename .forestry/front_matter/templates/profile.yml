@@ -31,6 +31,11 @@ fields:
     config:
       required: false
     label: Pinterest
+  - name: yelp
+    type: text
+    config:
+      required: false
+    label: Yelp
   label: Social Media
 - name: contact_information
   type: field_group
