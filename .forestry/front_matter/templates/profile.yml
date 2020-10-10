@@ -2,11 +2,11 @@
 label: Profile
 hide_body: false
 fields:
-- name: website_title
+- name: company_name
   type: text
   config:
     required: false
-  label: Website Title
+  label: Company Name
 - name: social_media
   type: field_group
   config: {}
