@@ -1,6 +1,6 @@
 +++
 body = "Area and oriental carpets can add loads of beauty to your home. They make your home comfortable and inviting. Much the same as some other fixtures in your home, your rugs are presented to ordinary pedestrian activity, allergens, earth, smells, and oils. In the event that you have pets, pee impacts area floor rugs the same as carpet.  Appropriate cleanings assume a major job in the life expectancy of your floor rugs. Estimating for area rugs can go from the hundreds to the thousands relying upon the fibers and material used to produce the rug. Most area rugs are developed with a characteristic fiber (fleece, cotton, silk).\n\nA few home owners endeavor to clean these floor coverings themselves not knowing the harm that can be caused from over-the-counter cleaners. Utilizing locally acquired cleaners that contain surfactants and brutal synthetic concoctions can cause irreversible harm to a characteristic fiber. Area Rugs made with fleece, silk, or cotton contain rich colors that will drain or blur if the best possible techniques are not taken."
-featured_image = "/uploads/rug-cleaning.jpg"
+featured_image = "/uploads/carpet-cleaning.jpg"
 heading = "Area Rug Cleaning"
 meta_description = "Steam Carpet Cleaning, Carpet Cleaning Services, Carpet Cleaning, Carpet Shampooing Service, House Carpet Cleaning, Rug Cleaning Service, 713-947-1373"
 subtitle = "Persian Rugs, Oriental Rugs, Wool Rugs and More"
