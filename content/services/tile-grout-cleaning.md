@@ -1,6 +1,6 @@
 +++
 body = "When you need the best tile and grout cleaning services in Houston, you won’t regret choosing Pathfinders Tile Cleaning Services. We are the right answer for all your home cleaning needs! We use only the highest quality equipment to clean the tile and grout in and around your home. Pathfinders offers tile and grout cleaning services that have remained unsurpassed by our competitors in the Houston area."
-featured_image = "/uploads/groutcleaning.jpg"
+featured_image = "/uploads/tilecleaning.jpg"
 heading = "Tile & Grout Cleaning"
 meta_description = ""
 subtitle = "Pathfinders restores all your ceramic tile and grout surfaces."
