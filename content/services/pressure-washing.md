@@ -1,6 +1,6 @@
 +++
 body = "Here at Pathfinders Carpet Cleaning, we are proud to offer pressure washing throughout Pasadena Texas.  All of our pressure washing technicians are equipped with industry-leading tools and equipment. This ensures you are receiving only the best Pasadena pressure washing services. "
-featured_image = "/uploads/pressure-washing.jpg"
+featured_image = "/uploads/pressure-washing2.jpg"
 heading = "Pressure Washing Pasadena"
 meta_description = ""
 subtitle = "We are the Pasadena Pressure Washing Experts!"
