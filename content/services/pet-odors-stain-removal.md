@@ -1,6 +1,6 @@
 +++
 body = "Pet owners know that even the best trained cats and dogs have accidents from time to time. Pet stains can damage your carpet and ruin your rugs and upholstery. Along with stains, odor is a common problem.\n\nRemoving the pet odors from your carpet, such as urine can be a challenging and frustrating process. It's very important to have your carpet or fabrics treated as soon as an accident occurs to guarantee the success of complete stain removal. The longer a stain sits, the harder it can be to remove the stain completely. All of our services are backed by the PATHFINDERS Guarantee to leave your carpets, rugs and upholstery clean and fresh with complete stain removal in most cases.\n\nWe use a hypo-allergenic solution that is safe for you and your pets."
-featured_image = "/uploads/pet.jpg"
+featured_image = "/uploads/dog-sleeping.jpg"
 heading = "Pet Odors & Stain Removal"
 meta_description = ""
 subtitle = "Hypo-allergenic solution that is safe for you and your pets."
