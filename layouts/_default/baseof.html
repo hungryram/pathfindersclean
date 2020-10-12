@@ -1,8 +1,11 @@
 {{ partial "global/head" . }}
 {{ partial "global/navbar.html" . }}
 
-{{ if .Params.featured_image }}
-<div class="page-banner" style="background:url({{ .Params.featured_image }})no-repeat center;background-size:cover;height:25vh">
+{{ with .Params.featured_image }}
+<div class="page-banner" style="background:url({{ . }})no-repeat center;background-size:cover;height:25vh">
+{{ else }}
+<div class="page-banner" style="background:url(/uploads/pressure-wash.jpg)no-repeat center;background-size:cover;height:25vh">
+{{ end }}
     <div class="section">
         <div class="container">
             <div class="columns">
@@ -13,7 +16,6 @@
         </div>
     </div>
 </div>
-{{ end }}
 <main>
 {{ block "main" . }}
 
