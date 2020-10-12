@@ -5,6 +5,22 @@ body {
     line-height: 2;
 }
 
+h1.subtitle,
+h2.subtitle,
+h3.subtitle,
+h4.subtitle,
+h5.subtitle,
+h6.subtitle {
+    font-family: 'Merriweather', serif;
+    color: #005986;
+}
+
+div.page-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 p.is-size-7 {
     font-size: .85rem!important;
 }
@@ -63,6 +79,12 @@ a.border-button {
 }
 
 /* NAVBAR*/
+
+div.top-bar {
+    background: #005986;
+    color: #fff;
+    padding: 4px;
+}
 
 a.navbar-item img {
     max-height: 4.75rem;
