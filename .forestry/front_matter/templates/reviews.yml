@@ -61,3 +61,5 @@ fields:
     max: 
     labelField: 
   label: Reviews
+pages:
+- content/reviews/_index.md
