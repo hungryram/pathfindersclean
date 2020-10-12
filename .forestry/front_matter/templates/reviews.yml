@@ -5,6 +5,11 @@ fields:
 - name: reviews
   type: field_group_list
   fields:
+  - name: name
+    type: text
+    config:
+      required: false
+    label: Name
   - name: review
     type: textarea
     default: ''
@@ -14,11 +19,6 @@ fields:
       schema:
         format: markdown
     label: Review
-  - name: name
-    type: text
-    config:
-      required: false
-    label: Name
   - name: stars
     type: select
     default: []
