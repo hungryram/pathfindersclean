@@ -1,5 +1,9 @@
 +++
 title = "Carpet Cleaning Mont Belvieu Texas"
+[menu.main]
+name = "Mont Belvieu Texas"
+parent = "Cities we Serve"
+weight = 5
 [search_engine_optimization]
 meta_description = ""
 title_tag = ""

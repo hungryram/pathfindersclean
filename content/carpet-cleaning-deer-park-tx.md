@@ -1,5 +1,9 @@
 +++
 title = "Carpet Cleaning Deer Park TX"
+[menu.main]
+name = "Deer Park Texas"
+parent = "Cities we Serve"
+weight = 2
 [search_engine_optimization]
 meta_description = ""
 title_tag = ""

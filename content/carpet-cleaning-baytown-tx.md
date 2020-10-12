@@ -1,5 +1,9 @@
 +++
 title = "Carpet Cleaning Baytown TX"
+[menu.main]
+name = "Baytown Texas"
+parent = "Cities we Serve"
+weight = 1
 [search_engine_optimization]
 meta_description = ""
 title_tag = ""

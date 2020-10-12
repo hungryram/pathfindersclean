@@ -1,5 +1,9 @@
 +++
 title = "Carpet Cleaning Friendswood TX"
+[menu.main]
+name = "Friendswood Texas"
+parent = "Cities we Serve"
+weight = 3
 [search_engine_optimization]
 meta_description = ""
 title_tag = ""
