@@ -1,5 +1,9 @@
 +++
 title = "Carpet Cleaning Seabrook Texas"
+[menu.main]
+name = "Seabrook Texas"
+parent = "Cities we Serve"
+weight = 7
 [search_engine_optimization]
 meta_description = ""
 title_tag = ""
