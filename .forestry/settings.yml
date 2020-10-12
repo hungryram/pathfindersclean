@@ -27,6 +27,10 @@ sections:
 - type: document
   path: content/reviews/_index.md
   label: Reviews
+- type: document
+  path: content/faq/_index.md
+  label: FAQ
+  match: "**/*"
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
