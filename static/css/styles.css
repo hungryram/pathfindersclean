@@ -20,6 +20,11 @@ div.content a {
     text-decoration: underline;
 }
 
+p > a {
+    color: #7F1010;
+    text-decoration: underline;
+}
+
 div.page-banner {
     display: flex;
     align-items: center;

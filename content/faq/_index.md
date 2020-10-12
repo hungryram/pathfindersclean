@@ -1,4 +1,6 @@
 +++
+title = "FAQ at Pathfinders Carpet Cleaning"
+meta_description = "View common questions from our customers at Pathfinders Carpet Cleaning in Texas Pasadena. Contact the team to answer any questions you may have"
 [[faq]]
 answer = "It takes between 3 to 6 business days, depending upon the rug and the specific fix and cleaning being finished. For your benefit, we will be glad to coordinate a specific time when we can return your rug."
 question = "How long will it take to get my area rugs back?"

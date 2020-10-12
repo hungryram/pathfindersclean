@@ -1,8 +1,12 @@
 {{ $seo := .Site.Data.profile.search_engine_optimization }}
 {{ $profile := .Site.Data.profile.company_name }}
-{{ $logo := .Site.Data.design.branding.logo }}
+{{ $logo := .Site.Data.appearance.branding.logo }}
+
+{{ $bodyDesc := .Params.body | truncate 170 }}
 <!-- OPEN GRAPH -->
 <meta property="og:url" content="{{ .Permalink }}" />
+<meta property="og:image" content="{{ $logo }}">
+
 {{- if $.IsHome -}}
     <meta property="og:image" content="{{ $logo | absURL }}"/>
     <meta property="og:title" content="{{ $seo.title_tag }}"/>
@@ -10,9 +14,6 @@
     <meta property="og:type" content="website" />
 {{ else }}
 
-    {{ with .Params.featured_image | default $logo | default .Params.photo }}
-        <meta property="og:image" content="{{ . | absURL }}">
-    {{ end }}
     {{- with .Params.title_tag | default .Params.search_engine_optimization.title_tag -}}
         <meta property="og:title" content="{{ . }}"/>
     {{ else }}
@@ -38,7 +39,7 @@
     <title>{{ .Params.Title }} - {{ $profile }}</title>
     {{ end }}
 
-    {{ with .Params.meta_description | default .Params.search_engine_optimization.meta_description  }}
+    {{ with .Params.meta_description | default .Params.search_engine_optimization.meta_description | default $bodyDesc  }}
     <meta name="description" content="{{ . }}">
     {{ else }}
     <meta name="description" content="{{ .Summary | truncate 170 }}">

@@ -1,0 +1,24 @@
+{{ define "main" }}
+<div class="section">
+    <div class="container">
+        <div class="columns">
+            <div class="column">
+                <h2 class="title is-4">Our Frequently Asked Questions</h2>
+                <p>Don't see an answer you're looking for? Send us an <a href="mailto:ebittick@pathfinderscarpetcleaning.com">email</a> or call at <a href="tel:(713) 947-1373">(713) 947-1373</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="section">
+    <div class="container">
+        {{ range .Params.faq }}
+        <div class="columns notification mt-4">
+            <div class="column">
+                <h4 class="title is-6">{{  .question }}</h4>
+                <p>{{ .answer | markdownify }}</p>
+            </div>
+        </div>
+        {{ end }}
+    </div>
+</div>
+{{ end }}
