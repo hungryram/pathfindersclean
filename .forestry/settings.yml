@@ -15,6 +15,8 @@ sections:
   label: Pages
   create: documents
   match: "*"
+  templates:
+  - pages
 - type: directory
   path: content/services
   label: Services
