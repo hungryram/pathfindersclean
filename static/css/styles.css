@@ -30,6 +30,10 @@ p.is-size-7 {
     font-size: .85rem!important;
 }
 
+a.has-text-gray {
+    color: #4a4a4a;
+}
+
 body p {
     font-weight: 300;
 }

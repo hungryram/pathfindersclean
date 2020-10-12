@@ -35,10 +35,27 @@
       <div class="column">
         <img src="/uploads/pathfinderscleanlogo2.png" alt="" width="80">
         <p>We are a full-service professional carpet cleaning company. We are family owned and operated and have been in business since 1976.</p>
-        <ul class="footer-social">
-          {{ if $footerSocial.facebook }}<li><a href="{{ $footerSocial.facebook }}" target="_blank">Facebook</a></li>{{ end }}
-          {{ if $footerSocial.instagram }}<li><a href="{{ $footerSocial.instagram }}" target="_blank">Instagram</a></li>{{ end }}
-          {{ if $footerSocial.twitter }}<li><a href="{{ $footerSocial.twitter }}" target="_blank">Twitter</a></li>{{ end }}
+        <ul class="footer-social mt-4">
+          {{ if $footerSocial.facebook }}<li class="is-inline"><a href="{{ $footerSocial.facebook }}" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="52" height="52" viewBox="0 0 24 24" stroke-width="1.5" stroke="#fbfbfb" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+              <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+            </svg>
+          </a></li>{{ end }}
+          {{ if $footerSocial.instagram }}<li class="is-inline"><a href="{{ $footerSocial.instagram }}" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="52" height="52" viewBox="0 0 24 24" stroke-width="1.5" stroke="#fbfbfb" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+              <rect x="4" y="4" width="16" height="16" rx="4" />
+              <circle cx="12" cy="12" r="3" />
+              <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+            </svg>
+          </a></li>{{ end }}
+          {{ if $footerSocial.twitter }}<li class="is-inline"><a href="{{ $footerSocial.twitter }}" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="52" height="52" viewBox="0 0 24 24" stroke-width="1.5" stroke="#fbfbfb" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+              <path d="M22 4.01c-1 .49-1.98.689-3 .99-1.121-1.265-2.783-1.335-4.38-.737S11.977 6.323 12 8v1c-3.245.083-6.135-1.395-8-4 0 0-4.182 7.433 4 11-1.872 1.247-3.739 2.088-6 2 3.308 1.803 6.913 2.423 10.034 1.517 3.58-1.04 6.522-3.723 7.651-7.742a13.84 13.84 0 0 0 .497 -3.753C20.18 7.773 21.692 5.25 22 4.009z" />
+            </svg>
+          </a></li>{{ end }}
           {{ if $footerSocial.pinterest }}<li><a href="{{ $footerSocial.pinterest }}" target="_blank">Pinterest</a></li>{{ end }}
           {{ if $footerSocial.youtube }}<li><a href="{{ $footerSocial.youtube }}" target="_blank">Youtube</a></li>{{ end }}
           {{ if $footerSocial.linkedin }}<li><a href="{{ $footerSocial.linkedin }}" target="_blank">Linkedin</a></li>{{ end }}
@@ -47,22 +64,24 @@
           {{ if $footerSocial.realtor }}<li><a href="{{ $footerSocial.realtor }}" target="_blank">Realtor</a></li>{{ end }}
           {{ if $footerSocial.reddit }}<li><a href="{{ $footerSocial.reddit }}" target="_blank">Reddit</a></li>{{ end }}
           {{ if $footerSocial.trulia }}<li><a href="{{ $footerSocial.trulia }}" target="_blank">Trulia</a></li>{{ end }}
-          {{ if $footerSocial.yelp }}<li><a href="{{ $footerSocial.yelp }}" target="_blank">Yelp</a></li>{{ end }}
+          {{ if $footerSocial.yelp }}<li class="is-inline"><a href="{{ $footerSocial.yelp }}" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1016.09 1333.33" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" width="52" height="52" class="icon"><path d="M25.87 641.95C4.22 676.65-4.93 785.94 2.59 858.47c2.65 23.94 6.98 43.91 13.29 55.81 8.66 16.48 23.22 26.28 39.81 26.88 10.64.54 17.26-1.26 217.43-65.62 0 0 88.96-28.39 89.31-28.57 22.19-5.65 37.11-26.05 38.56-52.09 1.44-26.7-12.33-50.28-35.07-58.82 0 0-62.73-25.56-62.85-25.56-215.08-88.71-224.76-92.2-235.59-92.32-16.59-.67-31.33 7.7-41.62 23.76zM515.4 545.6c-3.91-90.1-31.04-491.27-34.22-509.86-4.57-16.84-17.74-28.87-36.63-33.62-58.04-14.37-279.86 47.76-320.94 90.16-13.23 13.78-18.1 30.74-14.14 45.78 6.5 13.29 281.3 445.68 281.3 445.68 40.6 65.86 73.74 55.63 84.63 52.2 10.76-3.31 43.72-13.54 40-90.34zm228.19 187.72c227.35-55.1 236.13-57.98 245.09-63.88 13.78-9.26 20.69-24.78 19.49-43.67 0-.6.12-1.27 0-1.93-5.84-55.81-103.63-201.01-151.81-224.58-17.08-8.19-34.16-7.64-48.35 1.86-8.78 5.71-15.22 14.38-136.95 180.86 0 0-54.97 74.88-55.63 75.6-14.49 17.62-14.73 42.88-.54 64.54 14.68 22.44 39.46 33.38 62.19 27.07 0 0-.91 1.62-1.15 1.93 11.19-4.21 31.22-9.15 67.66-17.8zm103.39 496.44c50.52-20.15 160.71-160.35 168.47-214.3 2.7-18.77-3.19-34.94-16.12-45.29-8.48-6.37-14.92-8.84-214.96-74.52 0 0-87.75-28.99-88.9-29.53-21.23-8.24-45.47-.61-61.77 19.48-16.96 20.63-19.49 47.88-5.96 68.45l35.31 57.5c118.73 192.83 127.81 206.48 136.35 213.16 13.23 10.4 30.07 12.09 47.57 5.05zm-339.94 73.2c3.49-10.11 3.91-17.02 4.51-227.3 0 0 .48-92.93.54-93.83 1.44-22.8-13.29-43.54-37.41-52.81-24.84-9.56-51.6-3.67-66.64 15.04 0 0-43.9 52.09-44.03 52.09-150.66 177.01-156.97 185.19-160.65 195.65-2.23 6.13-3.13 12.75-2.41 19.31.91 9.38 5.17 18.64 12.21 27.3 34.95 41.5 202.51 103.15 256.04 94.01 18.58-3.37 32.12-13.83 37.83-29.47z" fill="#fbfbfb" stroke="#fbfbfb" fill-rule="nonzero"/></svg>
+          </a></li>{{ end }}
         </ul>
       </div>
       <div class="column">
         <h4 class="title is-6 has-text-white">Contact & Location</h4>
         <p>916 Vista Rd. Pasadena, TX 77504</p>
-        <p>Baytown (281) 422-0500</p>
-        <p>Channelview (713) 455-1919</p>
-        <p>Clearlake (281) 480-4880</p>
-        <p>Pasadena (713) 947-1373</p>
+        <p><strong>Baytown</strong> <a href="tel:(281) 422-0500" class="has-text-gray">(281) 422-0500</a></p>
+        <p><strong>Channelview</strong> <a href="tel:(713) 455-1919" class="has-text-gray">(713) 455-1919</a></p>
+        <p><strong>Clearlake</strong> <a href="tel:(281) 480-4880" class="has-text-gray">(281) 480-4880</a></p>
+        <p><strong>Pasadena</strong> <a href="tel:(713) 947-1373" class="has-text-gray">(713) 947-1373</a></p>
       </div>
       <div class="column">
         <h4 class="title is-6 has-text-white">Quick Links</h4>
         <ul>
-          <li><a href="">Services</a></li>
-          <li><a href="">FAQ</a></li>
+          <li><a href="/services">Services</a></li>
+          <li><a href="/faq">FAQ</a></li>
           <li><a href="">Rug Cleaning</a></li>
           <li><a href="">Carpet Cleaning</a></li>
         </ul>

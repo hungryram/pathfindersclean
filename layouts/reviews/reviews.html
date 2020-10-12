@@ -1,0 +1,57 @@
+{{ define "main" }}
+<div class="section">
+    <div class="container">
+        <div class="columns">
+            <div class="column is-half is-offset-one-quarter">
+                <p>Pathfinders Carpet Cleaning is the number one carpet cleaning service in Texas. See why our customers always refer us to their friends and family</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="section">
+    <div class="container">
+        <div class="columns is-multiline">
+            {{ range .Params.reviews }}
+            <div class="column is-11 is-offset-1 notification">
+                <div class="content">
+                    <p>{{ .review | markdownify }}</p>
+                    <div class="block">
+                        {{ if eq .stars "5" }}
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-star" width="32" height="32" viewBox="0 0 24 24" stroke-width="1" stroke="#FFC107" fill="#FFC107" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z" />
+                          </svg>
+                          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-star" width="32" height="32" viewBox="0 0 24 24" stroke-width="1" stroke="#FFC107" fill="#FFC107" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z" />
+                          </svg>
+                          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-star" width="32" height="32" viewBox="0 0 24 24" stroke-width="1" stroke="#FFC107" fill="#FFC107" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z" />
+                          </svg>
+                          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-star" width="32" height="32" viewBox="0 0 24 24" stroke-width="1" stroke="#FFC107" fill="#FFC107" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z" />
+                          </svg>
+                          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-star" width="32" height="32" viewBox="0 0 24 24" stroke-width="1" stroke="#FFC107" fill="#FFC107" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z" />
+                          </svg>
+                        {{ end }}
+                    </div>
+                    <h6 class="title is-6 mb-2">{{ .name }}</h6>
+                    {{ if .review_date }}<p class="is-size-7 mb-0">{{ .review_date }}</p>{{ end }}
+                    {{- if .source -}}<span class="is-size-7">{{ .source }} {{ if eq .source "Facebook" }}<a href="https://www.facebook.com/PathfindersCarpetCleaningService/reviews/?ref=page_internal" target="_blank">See All Facebook Reviews</a>{{- end -}}
+                        {{- if eq .source "Google" }}<a href="https://www.google.com/maps/place/Pathfinders+Carpet+Cleaning/@29.657963,-95.2017907,17z/data=!4m7!3m6!1s0x864098438d20d0b1:0x17278000cdd382be!8m2!3d29.657963!4d-95.199602!9m1!1b1" target="_blank">See All Google Reviews</a>{{- end -}}
+                        {{- if eq .source "Yelp" -}}<a href="https://www.yelp.com/biz/pathfinders-carpet-cleaning-pasadena" target="_blank">See All Yelp Reviews</a>{{- end -}}
+                    </span>{{ end }}
+                    <div class="block">
+                        
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</div>
+{{ end }}
