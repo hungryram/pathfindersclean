@@ -3,6 +3,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     line-height: 2;
+    overflow: hidden;
 }
 
 h1.subtitle,
@@ -77,6 +78,8 @@ a.border-button {
 @media screen and (min-width: 1024px){
     nav.navbar {
         min-height: 5.25rem;
+        padding-top:15px;
+        padding-bottom:15px;
     }
 }
 
@@ -105,12 +108,20 @@ div.top-bar {
 }
 
 a.navbar-item img {
-    max-height: 4.75rem;
+    max-height: 3.75rem;
 }
 
 a.navbar-item:hover,
 a.navbar-link:hover {
     color: #7F1010;
+}
+
+.navbar-dropdown {
+    display: none;
+}
+
+.navbar-dropdown.is-active {
+    display: block;
 }
 
 /* INTRO */
