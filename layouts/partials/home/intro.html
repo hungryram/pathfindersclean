@@ -15,43 +15,7 @@
                           <h2 class="title is-4 has-text-centered">Get a Quote</h2>
                           <div class="h-line" style="margin:20px auto"></div>
                       </div>
-                      <form action="">
-                        <div class="form">
-                          <div class="field">
-                            <label class="label">Name</label>
-                            <div class="control">
-                              <input class="input" type="text">
-                            </div>
-                        </div>
-                          
-                        <div class="field">
-                            <label class="label">Email</label>
-                            <div class="control">
-                              <input class="input" type="text">
-                            </div>
-                        </div>
-                          
-                        <div class="field">
-                            <label class="label">Phone</label>
-                            <div class="control">
-                              <input class="input" type="text">
-                            </div>
-                        </div>
-                          
-                          <div class="field">
-                            <label class="label">Message</label>
-                            <div class="control">
-                              <textarea class="textarea"></textarea>
-                            </div>
-                          </div>
-                          
-                          <div class="field is-grouped">
-                            <div class="control">
-                              <button class="primary-btn">Submit</button>
-                            </div>
-                          </div>
-                        </div>
-                      </form>
+                      {{ partial "templates/quote" . }}
                     </div>
                 </div>
             </div>

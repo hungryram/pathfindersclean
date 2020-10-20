@@ -60,39 +60,40 @@
             <div class="column">
                 <h4 class="title is-6">Send us your details and we'll contact you shortly</h4>
                 <div class="cta-box" style="margin-top:0">
-                    <form action="">
+                  <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+                    <input name="bot-field" type="hidden"/>
                         <div class="form">
                           <div class="field">
                             <label class="label">Name</label>
                             <div class="control">
-                              <input class="input" type="text">
+                              <input class="input" type="text" name="name">
                             </div>
                         </div>
                           
                         <div class="field">
                             <label class="label">Email</label>
                             <div class="control">
-                              <input class="input" type="text">
+                              <input class="input" type="text" name="email">
                             </div>
                         </div>
                           
                         <div class="field">
                             <label class="label">Phone</label>
                             <div class="control">
-                              <input class="input" type="text">
+                              <input class="input" type="text" name="phone">
                             </div>
                         </div>
                           
                           <div class="field">
                             <label class="label">Message</label>
                             <div class="control">
-                              <textarea class="textarea"></textarea>
+                              <textarea class="textarea" name="message"></textarea>
                             </div>
                           </div>
                           
                           <div class="field is-grouped">
                             <div class="control">
-                              <button class="primary-btn">Submit</button>
+                              <button class="primary-btn" type="submit">Submit</button>
                             </div>
                           </div>
                         </div>
