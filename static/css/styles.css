@@ -36,6 +36,10 @@ p.is-size-7 {
     font-size: .85rem!important;
 }
 
+p.is-size-8 {
+    font-size: .75em;
+}
+
 a.has-text-gray {
     color: #4a4a4a;
 }
