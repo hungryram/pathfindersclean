@@ -55,10 +55,10 @@ a.primary-btn {
     background: #7F1010;
     color: #fff;
     padding: 15px 30px;
-    display: block;
     margin-top: 20px;
-    width: calc(100% - 50%) !important;
     text-align: center;
+    position: relative;
+    top: 30px;
 }
 
 button.primary-btn {
