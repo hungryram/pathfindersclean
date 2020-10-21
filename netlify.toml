@@ -1,0 +1,113 @@
+[[redirects]]
+  from = "https://pathfinderscarpet.netlify.app/*"
+  to = "https://www.pathfinderscarpetcleaning.com/:splat"
+  status = 301
+  force = true #COMMENT: ensure that we always redirect
+
+[[redirects]]
+  from = "/air-duct-cleaing"
+  to = "/services/air-duct-cleaning-air-quality/"
+  status = 301
+  force = true #COMMENT: ensure that we always redirect 
+  
+[[redirects]]
+from = "/product-page/synthetic-rug-cleaning-2-00-sq-ft"
+to = "/services"
+status = 301
+force = true #COMMENT: ensure that we always redirect
+
+[[redirects]]
+from = "/product-page/90-steam-carpet-cleaning-3-rooms"
+to = "/services"
+status = 301
+force = true #COMMENT: ensure that we always redirect
+
+[[redirects]]
+from = "/product-page/power-washing"
+to = "/services"
+status = 301
+force = true #COMMENT: ensure that we always redirect
+
+[[redirects]]
+from = "/carpet-upholstery"
+to = "/services/carpet-upholstery/"
+status = 301
+force = true #COMMENT: ensure that we always redirect
+
+[[redirects]]
+from = "/carpet-cleaning-friendswood-texas"
+to = "/carpet-cleaning-friendswood-tx/"
+status = 301
+force = true #COMMENT: ensure that we always redirect
+
+[[redirects]]
+from = "/pressure-washing"
+to = "/services/pressure-washing/"
+status = 301
+force = true #COMMENT: ensure that we always redirect
+
+[[redirects]]
+from = "/product-page/tile-grout-cleaning"
+to = "/services"
+status = 301
+force = true #COMMENT: ensure that we always redirect
+
+[[redirects]]
+from = "/area-rug-oriental-rug-cleaning"
+to = "/services/rug-cleaning/"
+status = 301
+force = true #COMMENT: ensure that we always redirect
+
+[[redirects]]
+from = "/water-damage"
+to = "/services/water-damage-extraction-services/"
+status = 301
+force = true #COMMENT: ensure that we always redirect
+
+[[redirects]]
+from = "/carpet-cleaning-pearland-tx"
+to = "/carpet-cleaning-pearland-texas/"
+status = 301
+force = true #COMMENT: ensure that we always redirect
+
+[[redirects]]
+from = "/pet-odors-stains"
+to = "/services/pet-odors-stain-removal/"
+status = 301
+force = true #COMMENT: ensure that we always redirect
+
+[[redirects]]
+from = "/product-page/wool-rug-cleaning-3-00-sq-ft"
+to = "/services"
+status = 301
+force = true #COMMENT: ensure that we always redirect
+
+[[redirects]]
+from = "/about-us"
+to = "/about/"
+status = 301
+force = true #COMMENT: ensure that we always redirect
+
+[[redirects]]
+from = "/tile-grout-cleaning"
+to = "/services/tile-grout-cleaning/"
+status = 301
+force = true #COMMENT: ensure that we always redirect
+
+[[redirects]]
+from = "/shop"
+to = "/services"
+status = 301
+force = true #COMMENT: ensure that we always redirect
+
+[[redirects]]
+from = "/product-page/air-duct-cleaning"
+to = "/services/air-duct-cleaning-air-quality/"
+status = 301
+force = true #COMMENT: ensure that we always redirect
+
+[[redirects]]
+from = "/product-page/specialty-fiber-cleaning-silk-jute-sisal-4-00-sq-ft"
+to = "/services"
+status = 301
+force = true #COMMENT: ensure that we always redirect
