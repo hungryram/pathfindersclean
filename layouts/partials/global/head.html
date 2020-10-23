@@ -20,8 +20,11 @@
     <meta name="robots" content="index, follow">
 {{ end }}
 
+{{ if $.IsHome }}
 <!-- SCHEMA -->
 {{ partial "global/schema" . }}
+{{ end }}
+
 <!-- START SEO -->
 {{ partial "global/seo" . }}
 <!-- SOCIAL SEO -->
