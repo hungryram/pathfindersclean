@@ -1,4 +1,24 @@
 ---
 label: Settings
 hide_body: true
-fields: []
+fields:
+- name: head_tag
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Head Tag
+  description: Add code within the &lt;head&gt; tag
+- name: footer_tag
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Footer Tag
+  description: Add code before the close of the body tag.
