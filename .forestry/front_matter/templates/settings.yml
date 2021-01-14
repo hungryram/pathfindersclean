@@ -22,3 +22,5 @@ fields:
       format: markdown
   label: Footer Tag
   description: Add code before the close of the body tag.
+pages:
+- data/settings.yaml
