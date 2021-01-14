@@ -151,5 +151,8 @@ $(".main-drop").click(function() {
   $(".navbar-dropdown", this).toggleClass("is-active");
 });
 </script>
+{{ if .Site.Data.settings.footer_tag }}
+{{ .Site.Data.settings.footer_tag | safeHTML }}
+{{ end }}
 </body>
 </html>

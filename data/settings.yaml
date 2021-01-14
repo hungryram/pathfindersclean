@@ -1,3 +1,0 @@
----
-head_tag: "<script>$alert('test');</script>"
-footer_tag: "<script>console.log('footer test');</script>"
