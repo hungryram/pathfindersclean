@@ -5,8 +5,6 @@ meta_description = "Pathfinders Carpet Cleaning provides top-rated pressure wash
 title_tag = "Pressure Washing Friendswood, TX | Pathfinders Carpet Cleaning"
 
 +++
-# Pressure Washing Friendswood, TX
-
 [Patherfinds Carpet and Cleaning](https://www.pathfinderscarpetcleaning.com/ "Pressure Washing") is the company for you if you’re in need of pressure washing [Friendswood](https://www.ci.friendswood.tx.us/ "Pressure Washers in Friendswood") services. We are a Friendswood pressure washing company who still believes in good old fashioned customer service. We were founded on the principles of integrity, trust, honor, and accountability. This means we put 100% effort into every job we take in. When you hire Pathfinders we understand that you’ve put your faith in us to do a job well done, and we will never misuse that trust. We have a team of highly-skilled, highly experienced pressure washers who will work hard to leave your home and property looking good as new!
 
 Friendswood is a great place to live and raise a family. The neighborhoods are beautiful, there are plenty of parks, and there is a rich history in [Friendswood](https://www.niche.com/places-to-live/friendswood-galveston-tx/ "Friendswood Pressure Washing"). The people in Friendswood are some of the nicest around! We’ve been establishing relationships with the people of Friendswood for years and we are honored to call them our customers. If you are a resident of the area and are looking to have your home exterior and property cleaned, we hope you’ll give Pathfinders a call.
