@@ -28,5 +28,3 @@ We also provide pressure washing services for businesses in the area. First impr
 ### Call Today for the Best Pressure Washers Friendswood Has to Offer!
 
 If you’re searching for pressure washing near me Friendswood, [Pathfinders Carpet Cleaning](https://www.pathfinderscarpetcleaning.com/contact "Contact Us") is the company for you. Our combination of exemplary customer service and our skills and knowledge in the cleaning industry have made us one of the most respected companies in town. We’d love nothing more than to help you clean your house or business. Please reach out to learn more.
-
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d111106.66655298551!2d-95.26004119385401!3d29.513930197075382!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86408ff668e6975f%3A0x95ffb1cfe5ee6acc!2sFriendswood%2C%20TX!5e0!3m2!1sen!2sus!4v1611859080500!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
