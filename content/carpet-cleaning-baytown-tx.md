@@ -5,8 +5,8 @@ name = "Baytown Texas"
 parent = "Cities we Serve"
 weight = 1
 [search_engine_optimization]
-meta_description = ""
-title_tag = ""
+meta_description = "Pathfinders Carpet Cleaning offers water damage restoration, tile cleaning and upholstery cleaning in Baytown TX, We also offer rug cleaning services. Call Today! (713) 947-1373"
+title_tag = "Carpet Cleaning Baytown TX | Air Duct Cleaning Baytown"
 
 +++
 #### Carpet Cleaning Baytown TX
