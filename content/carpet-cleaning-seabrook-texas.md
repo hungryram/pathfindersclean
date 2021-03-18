@@ -1,5 +1,5 @@
 +++
-title = "Carpet Cleaning Seabrook TX"
+title = "Carpet Cleaning Seabrook Texas"
 [menu.main]
 name = "Seabrook Texas"
 parent = "Cities we Serve"

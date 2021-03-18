@@ -1,5 +1,5 @@
 +++
-title = "Carpet Cleaning Pearland TX"
+title = "Carpet Cleaning Pearland Texas"
 [menu.main]
 name = "Pearland Texas"
 parent = "Cities we Serve"
