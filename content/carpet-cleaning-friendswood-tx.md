@@ -5,8 +5,8 @@ name = "Friendswood Texas"
 parent = "Cities we Serve"
 weight = 3
 [search_engine_optimization]
-meta_description = ""
-title_tag = ""
+meta_description = "Pathfinders Carpet Cleaning provides carpet cleaning in Friendswood, TX. We offer water damage restoration, air duct cleaning, and more!"
+title_tag = "Carpet Cleaning Friendswood TX | Pathfinders Carpet Cleaning"
 
 +++
 Located just south of Pasadena is the beautiful town of Friendswood, Texas. Friendswood is a bustling area that is home to approximately 40,000 people. If you are a resident or a business owner in the [Friendswood](https://www.ci.friendswood.tx.us/) vicinity, then we would like to offer our services to you. [Pathfinders Carpet Cleaning](https://www.pathfinderscarpetcleaning.com/) is a full-service professional carpet cleaning company that has many different services to offer to our customers.
