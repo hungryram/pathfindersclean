@@ -5,8 +5,8 @@ name = "Deer Park Texas"
 parent = "Cities we Serve"
 weight = 2
 [search_engine_optimization]
-meta_description = ""
-title_tag = ""
+meta_description = "Pathfinders Carpet Cleaning provides carpet cleaning in Deer Park, TX. We offer water damage restoration, air duct cleaning, and more!"
+title_tag = "Carpet Cleaning Deer Park TX | Pathfinders Carpet Cleaning"
 
 +++
 #### Carpet Cleaning Deer Park TX
