@@ -5,8 +5,8 @@ name = "League City Texas"
 parent = "Cities we Serve"
 weight = 4
 [search_engine_optimization]
-meta_description = ""
-title_tag = ""
+meta_description = "Pathfinders Carpet Cleaning provides carpet cleaning in League City, TX. We offer water damage restoration, air duct cleaning, and more!"
+title_tag = "Carpet Cleaning League City TX | Pathfinders Carpet Cleaning"
 
 +++
 #### Carpet Cleaning League City TX
