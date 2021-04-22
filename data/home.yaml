@@ -1,22 +1,47 @@
 ---
 hero:
-  heading: ''
-  subtitle: ''
-  body: ''
-  button_label: ''
-  button_link: ''
+  heading: PATHFINDERS CARPET & RUG CLEANING
+  subtitle: FAMILY OWNED & OPERATED SINCE 1976
+  body: Our service techs are clean, courteous, polite and hard working. Get those
+    nasty stains and terrible odors out of your carpet today!
+  button_label: Book Appointment
+  button_link: https://www.housecallpro.com/book/AAA-Pathfinders-Cleaning-Services/e5c1846efa0247f49e8bd302a298159c
 introduction:
-  heading: ''
-  body: ''
-  link_label: ''
-  button_link: ''
+  heading: Why Choose Us
+  body: Since 1976 we have been family owned, and operate out of the same location
+    on Vista Rd. in Pasadena. Founded by my Grandfather, Paul Joe Candelaria, a Navy
+    Veteran, he instilled honesty, reliability, and dependability from day one. We
+    realize that choosing a company to come into your home and clean your belongings
+    isn’t a easy one. We background check all our employees and make sure they are
+    certified by the IICRC so they can provide you with honest and exceptional service.
+  link_label: Read More
+  button_link: https://www.pathfinderscarpetcleaning.com/about
 featured_services:
-  featured_services: []
+  featured_services:
+  - heading: Our Process
+    body: We provide an 8 step “hands on” cleaning process that ensures your rug is
+      free of any dirt, bacteria, and odor.
+    image: "/uploads/process.jpg"
+  - heading: Pathfinders Promise
+    body: Our process includes an inch by inch post inspection, and if you are not
+      satisfied for any reason, we will happily clean your rug again. We stand by
+      our process!
+    image: "/uploads/carpetclean.jpg"
+  - heading: Services Offered
+    body: We offer repairs, pet odor removal, fiber protection, Water Damage restoration,
+      and much more.
+    image: "/uploads/services.jpg"
 banner:
-  image: ''
-  heading: ''
-  body: ''
+  image: "/uploads/pathfindersicon.png"
+  heading: Pathfinders Reputation
+  body: Being family owned since 1976 our reputation has always been something we
+    are proud of. We approach every job differently and guarantee our work at all
+    times. We treat your home and belongings with respect and provide every customer
+    with courtesy and kindness.
 closing:
-  heading: ''
-  body: ''
-  image: ''
+  heading: Free Rug Pickup and Delivery
+  body: |-
+    We ensure your rugs and upholstery will be so clean you’ll be happy to lay down with a good book and enjoy the fresh, feel good scent, of super clean carpet. We use the industries latest and best equipment’s provided by the Butler and Sapphire Corporations, who is in fact, the leading and most trusted companies in the industry.
+
+    We have state-of-the-art truck mounted / van powered carpet upholstery cleaning equipment and the patented Rotobrush air duct cleaning equipment available to serve any of your cleaning needs. One call cleans it all!
+  image: "/uploads/cleancarpet.jpg"
