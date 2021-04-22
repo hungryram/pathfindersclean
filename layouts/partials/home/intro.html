@@ -4,7 +4,9 @@
         <div class="columns is-variable is-8">
             <div class="column">
                 <h2 class="title is-3">{{ $intro.heading }}</h2>
-                <p>{{ $intro.body }}</p>
+                <div class="content">
+                   <p> {{ $intro.body | markdownify }}</p>
+                </div>
                 <br>
                 <a href="{{ $intro.button_link }}" class="border-button">{{ $intro.link_label }}</a>
             </div>

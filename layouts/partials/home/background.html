@@ -6,9 +6,11 @@
                 <div class="column has-text-centered">
                     <img src="{{ $banner.image }}" alt="Pathfinders Carpet Cleaning Icon" width="300">
                 </div>
-                <div class="column">
+                <div class="column content">
                     <h3 class="title is-4 has-text-white">{{ $banner.heading }}</h3>
-                    <p class="has-text-white">{{ $banner.body }}</p>
+                    <div class="has-text-white">
+                        {{ $banner.body | markdownify }}
+                    </div>
                 </div>
             </div>
         </div>
