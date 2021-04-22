@@ -1,14 +1,16 @@
+{{ $closing := .Site.Data.home.closing }}
 <div class="section">
     <div class="container">
         <div class="columns is-variable is-8 is-vcentered">
             <div class="column is-5">
-                <img src="/uploads/cleancarpet.jpg" alt="">
+                <img src="{{ $closing.image }}" alt="">
             </div>
             <div class="column">
                 <div class="h-line"></div>
-                <h2 class="title is-4">Free Rug Pickup and Delivery</h2>
-                <p>We ensure your rugs and upholstery will be so clean you’ll be happy to lay down with a good book and enjoy the fresh, feel good scent, of super clean carpet. We use the industries latest and best equipment’s provided by the Butler and Sapphire Corporations,  who is in fact, the leading and most trusted companies in the industry.</p>
-                <p class="mt-5">We have state-of-the-art truck mounted / van powered carpet upholstery cleaning equipment and the patented Rotobrush air duct cleaning equipment available to serve any of your cleaning needs. One call cleans it all!</p>
+                <h2 class="title is-4">{{ $closing.heading }}</h2>
+                <div>
+                    {{ $closing.body }}
+                </div>
                 <br>
                 <a href="https://www.housecallpro.com/book/AAA-Pathfinders-Cleaning-Services/e5c1846efa0247f49e8bd302a298159c" target="_blank" class="primary-btn">Schedule Pick Up</a>
             </div>

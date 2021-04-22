@@ -1,19 +1,21 @@
 {{ partial "global/navbar" . }}
+{{ $hero := .Site.Data.home.hero }}
 <section class="hero is-info is-large" style="background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(/uploads/clean-living-room.jpg) no-repeat center 80%">
     <div class="hero-body">
       <div class="container">
         <div class="columns">
             <div class="column is-half">
                 <h1 class="title is-1">
-                    PATHFINDERS CARPET  & RUG CLEANING
+                    {{ $hero.heading }}
                 </h1>
                 <h2 class="subtitle">
-                    FAMILY OWNED & OPERATED SINCE 1976
+                  {{ $hero.subtitle }}
+
                 </h2>
                 <div class="h-line"></div>
-                <p>Our service techs are clean, courteous, polite and hard working. Get those nasty stains and terrible odors out of your carpet today!</p>
+                <p>{{ $hero.body }}</p>
                 <br>
-                <a href="https://www.housecallpro.com/book/AAA-Pathfinders-Cleaning-Services/e5c1846efa0247f49e8bd302a298159c" target="_blank" class="primary-btn">Book Apppointment</a>
+                <a href="{{ $hero.button_link }}" target="_blank" class="primary-btn">{{ $hero.button_label }}</a>
             </div>
         </div>
       </div>

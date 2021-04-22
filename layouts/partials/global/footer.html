@@ -2,6 +2,7 @@
 {{ $footerLocation := .Site.Data.profile.location_information }}
 {{ $footerDesign := .Site.Data.design.footer }}
 {{ $footerSocial := .Site.Data.profile.social_media }}
+{{ $footerBanner := .Site.Data.appearance.footer_banner }}
 <div class="top-footer">
   <div class="section">
     <div class="container">
@@ -11,8 +12,8 @@
             <div class="level-left">
               <div class="level-item">
                 <div>
-                  <h3 class="title is-4 has-text-white">Work with our Reliable Team</h3>
-                  <p class="has-text-white">Always available to assist. Get in touch by email or phone</p>
+                  <h3 class="title is-4 has-text-white">{{ $footerBanner.heading }}</h3>
+                  <p class="has-text-white">{{ $footerBanner.body }}</p>
                 </div>
               </div>
             </div>

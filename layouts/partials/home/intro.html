@@ -1,11 +1,12 @@
+{{ $intro := .Site.Data.home.introduction }}
 <div class="section">
     <div class="container">
         <div class="columns is-variable is-8">
             <div class="column">
-                <h2 class="title is-3">Why Choose Us</h2>
-                <p>Since 1976 we have been family owned, and operate out of the same location on Vista Rd. in Pasadena. Founded by my Grandfather, Paul Joe Candelaria, a Navy Veteran, he instilled honesty, reliability, and dependability from day one. We realize that choosing a company to come into your home and clean your belongings isn’t a easy one. We background check all our employees and make sure they are certified by the IICRC so they can provide you with honest and exceptional service.</p>
+                <h2 class="title is-3">{{ $intro.heading }}</h2>
+                <p>{{ $intro.body }}</p>
                 <br>
-                <a href="/about" class="border-button">Read More</a>
+                <a href="{{ $intro.button_link }}" class="border-button">{{ $intro.link_label }}</a>
             </div>
             <div class="column cta-box">
                 <div class="box">
