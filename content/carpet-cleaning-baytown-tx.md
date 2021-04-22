@@ -25,7 +25,7 @@ If you have been searching for a carpet cleaning near me [Baytown](https://www.b
 
 #### We are the Commercial Carpet Cleaning Baytown Experts
 
-Our team members take great pride in the work that we provide for our customers throughout Baytown, and all of the surrounding communities, as well.
+Our team members take great pride in the work that we provide for our customers throughout Baytown, and all of the surrounding communities, as well. Alongside our carpet cleaning services, we are proud to also offer [pressure washing](https://www.pathfinderscarpetcleaning.com/pressure-washing-baytown-tx/ "Pressure Washing") in Baytown, TX!
 
 We look forward to hearing from you, and working with you, anytime!
 
