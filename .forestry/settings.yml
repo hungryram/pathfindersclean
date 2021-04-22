@@ -11,6 +11,10 @@ sections:
   path: data/profile.yaml
   label: Profile
 - type: document
+  path: data/home.yaml
+  label: Home Content
+  match: "**/*"
+- type: document
   path: data/appearance.yaml
   label: Appearance
 - type: directory
