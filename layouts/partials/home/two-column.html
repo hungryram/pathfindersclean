@@ -8,8 +8,8 @@
             <div class="column">
                 <div class="h-line"></div>
                 <h2 class="title is-4">{{ $closing.heading }}</h2>
-                <div>
-                    {{ $closing.body }}
+                <div class="content">
+                    {{ $closing.body | markdownify }}
                 </div>
                 <br>
                 <a href="https://www.housecallpro.com/book/AAA-Pathfinders-Cleaning-Services/e5c1846efa0247f49e8bd302a298159c" target="_blank" class="primary-btn">Schedule Pick Up</a>

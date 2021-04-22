@@ -1,10 +1,15 @@
 {{ $featured := .Site.Data.home.featured_services.featured_services }}
+{{ $featuredIntro := .Site.Data.home.featured_services }}
 <div class="section" style="background:#f6f6f6">
     <div class="container">
         <div class="columns">
             <div class="column has-text-centered is-half is-offset-one-quarter">
-                <h2 class="title is-3 has-text-centered">Carpet & Rug Cleaning Service</h2>
-                <p>We approach every job differently and guarantee our work at all times. We treat your home and belongings with respect and provide every customer with courtesy and kindness.</p>
+                <h2 class="title is-3 has-text-centered">{{ $featuredIntro.heading }}</h2>
+                <div class="content">
+                    <p>
+                        {{ $featuredIntro.body | markdownify }}
+                    </p>
+                </div>
             </div>
         </div>
     </div>
