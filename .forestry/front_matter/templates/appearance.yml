@@ -22,5 +22,19 @@ fields:
       maxSize: 1
     label: Favicon
   label: Branding
+- name: footer_banner
+  type: field_group
+  config: {}
+  fields:
+  - name: body
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Body
+  label: Footer Banner
 pages:
 - data/appearance.yaml
