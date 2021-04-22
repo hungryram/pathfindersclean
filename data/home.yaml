@@ -43,8 +43,11 @@ banner:
     with courtesy and kindness.
 closing:
   heading: Free Rug Pickup and Delivery
-  body: |-
-    We ensure your rugs and upholstery will be so clean you’ll be happy to lay down with a good book and enjoy the fresh, feel good scent, of super clean carpet. We use the industries latest and best equipment’s provided by the Butler and Sapphire Corporations, who is in fact, the leading and most trusted companies in the industry.
-
-    We have state-of-the-art truck mounted / van powered carpet upholstery cleaning equipment and the patented Rotobrush air duct cleaning equipment available to serve any of your cleaning needs. One call cleans it all!
+  body: "We ensure your rugs and upholstery will be so clean you’ll be happy to lay
+    down with a good book and enjoy the fresh, feel good scent, of super clean carpet.
+    We use the industries latest and best equipment’s provided by the Butler and Sapphire
+    Corporations, who is in fact, the leading and most trusted companies in the industry.
+    \ \n  \nWe have state-of-the-art truck mounted / van powered carpet upholstery
+    cleaning equipment and the patented Rotobrush air duct cleaning equipment available
+    to serve any of your cleaning needs. One call cleans it all!"
   image: "/uploads/cleancarpet.jpg"
