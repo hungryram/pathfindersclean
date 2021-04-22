@@ -22,15 +22,18 @@ featured_services:
     body: We provide an 8 step “hands on” cleaning process that ensures your rug is
       free of any dirt, bacteria, and odor.
     image: "/uploads/process.jpg"
+    image_alt_tag: Vacuuming couch with gloves
   - heading: Pathfinders Promise
     body: Our process includes an inch by inch post inspection, and if you are not
       satisfied for any reason, we will happily clean your rug again. We stand by
       our process!
     image: "/uploads/carpetclean.jpg"
+    image_alt_tag: professional cleaning carpet
   - heading: Services Offered
     body: We offer repairs, pet odor removal, fiber protection, Water Damage restoration,
       and much more.
     image: "/uploads/services.jpg"
+    image_alt_tag: Vacuuming carpet
 banner:
   image: "/uploads/pathfindersicon.png"
   heading: Pathfinders Reputation
