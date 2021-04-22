@@ -1,4 +1,113 @@
 ---
 label: Home
 hide_body: true
-fields: []
+fields:
+- name: introduction
+  type: field_group
+  config: {}
+  fields:
+  - name: heading
+    type: text
+    config:
+      required: false
+    label: Heading
+  - name: body
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Body
+  - name: link_label
+    type: text
+    config:
+      required: false
+    label: Button Label
+  - name: button_link
+    type: text
+    config:
+      required: false
+    label: Button Link
+  label: Introduction
+- name: featured_services
+  type: field_group
+  config: {}
+  fields:
+  - name: featured_services
+    type: field_group_list
+    fields:
+    - name: heading
+      type: text
+      config:
+        required: false
+      label: Heading
+    - name: body
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: false
+        schema:
+          format: markdown
+      label: Body
+    - name: image
+      type: file
+      config:
+        maxSize: 2
+      label: Image
+    config:
+      min: 
+      max: 3
+      labelField: 
+    label: Featured Services
+  label: Featured Services
+- name: banner
+  type: field_group
+  config: {}
+  fields:
+  - name: image
+    type: file
+    config:
+      maxSize: 2
+    label: Image
+  - name: heading
+    type: text
+    config:
+      required: false
+    label: Heading
+  - name: body
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: Body
+  label: Banner
+- name: closing
+  type: field_group
+  config: {}
+  fields:
+  - name: heading
+    type: text
+    config:
+      required: false
+    label: Heading
+  - name: body
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: Body
+  - name: image
+    type: file
+    config:
+      maxSize: 2
+    label: Image
+  label: Closing
