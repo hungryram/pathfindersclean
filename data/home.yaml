@@ -1,0 +1,22 @@
+---
+hero:
+  heading: ''
+  subtitle: ''
+  body: ''
+  button_label: ''
+  button_link: ''
+introduction:
+  heading: ''
+  body: ''
+  link_label: ''
+  button_link: ''
+featured_services:
+  featured_services: []
+banner:
+  image: ''
+  heading: ''
+  body: ''
+closing:
+  heading: ''
+  body: ''
+  image: ''

@@ -145,3 +145,5 @@ fields:
       maxSize: 2
     label: Image
   label: Closing
+pages:
+- data/home.yaml
