@@ -12,7 +12,7 @@
             <div class="level-left">
               <div class="level-item">
                 <div>
-                  <h3 class="title is-4 has-text-white">{{ $footerBanner.heading }}</h3>
+                  <h2 class="title is-4 has-text-white">{{ $footerBanner.heading }}</h2>
                   <p class="has-text-white">{{ $footerBanner.body }}</p>
                 </div>
               </div>
@@ -34,7 +34,7 @@
   <div class="container">
     <div class="columns is-variable is-6">
       <div class="column">
-        <img src="/uploads/pathfinderscleanlogo2.png" alt="" width="80">
+        <img src="/uploads/pathfinderscleanlogo2.png" alt="{{ .Site.Data.profile.company_name }}" width="80">
         <p>We are a full-service professional carpet cleaning company. We are family owned and operated and have been in business since 1976.</p>
         <ul class="footer-social mt-4">
           {{ if $footerSocial.facebook }}<li class="is-inline"><a href="{{ $footerSocial.facebook }}" target="_blank">
@@ -71,7 +71,7 @@
         </ul>
       </div>
       <div class="column">
-        <h4 class="title is-6 has-text-white">Contact & Location</h4>
+        <h2 class="title is-6 has-text-white">Contact & Location</h2>
         <p>916 Vista Rd. Pasadena, TX 77504</p>
         <p><strong>Baytown</strong> <a href="tel:(281) 422-0500" class="has-text-gray">(281) 422-0500</a></p>
         <p><strong>Channelview</strong> <a href="tel:(713) 455-1919" class="has-text-gray">(713) 455-1919</a></p>
@@ -79,7 +79,7 @@
         <p><strong>Pasadena</strong> <a href="tel:(713) 947-1373" class="has-text-gray">(713) 947-1373</a></p>
       </div>
       <div class="column">
-        <h4 class="title is-6 has-text-white">Quick Links</h4>
+        <h2 class="title is-6 has-text-white">Quick Links</h2>
         <ul>
           <li><a href="/services">Services</a></li>
           <li><a href="/faq">FAQ</a></li>
@@ -88,7 +88,7 @@
         </ul>
       </div>
       <div class="column">
-        <h4 class="title is-6 has-text-white">Hours</h4>
+        <h2 class="title is-6 has-text-white">Hours</h2>
         <p><strong>Mon - Fri</strong> 7:30 am to 5:30 pm</p>
         <p><strong>Saturday</strong> 8:00 am to 2:00 pm</p>
         <p><strong>Sunday</strong> Closed</p>

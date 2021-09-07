@@ -12,9 +12,9 @@
 <div class="section">
     <div class="container">
         {{ range .Params.faq }}
-        <div class="columns notification mt-4">
+        <div class="columns notification">
             <div class="column">
-                <h4 class="title is-6">{{  .question }}</h4>
+                <h3 class="title is-6">{{  .question }}</h3>
                 <p>{{ .answer | markdownify }}</p>
             </div>
         </div>
