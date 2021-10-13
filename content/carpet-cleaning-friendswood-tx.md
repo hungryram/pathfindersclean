@@ -35,6 +35,8 @@ Pathfinders Carpet Cleaning also offers a wide range of additional cleaning serv
 
 Our commercial carpet cleaning in Friendswood includes air duct cleaning and air quality, water damage and extraction services, and much more! We will react fast for water extraction services as we know water damage can wreak havoc on your home or business. If necessary, we even work directly with you and your insurance agent to process the insurance claim. We’d be happy to discuss your specific needs and offer you a free cost estimate for your services.
 
+![](/uploads/tile-cleaning-friendswood.jpeg)
+
 ### Call Today for Tile and Grout Cleaning and Water Damage Restoration in Friendswood, TX
 
 Pathfinders Carpet Cleaning is proud to serve the town of Friendswood as well as its surrounding communities. Friendswood offers numerous historical and modern attractions such as the 1903 Perry House, the Frank J. Brown Museum, and outdoor activities at Stevenson Park. 
