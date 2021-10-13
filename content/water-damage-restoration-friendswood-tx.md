@@ -1,5 +1,4 @@
 +++
-draft = true
 title = "Water Damage Restoration Friendswood, TX"
 [search_engine_optimization]
 meta_description = "Pathfinders Carpet Cleaning provides top-rated water damage restoration in Friendswood, TX. We are the best water damage restoration company Friendswood has to offer. Call us today!"
@@ -12,7 +11,7 @@ Are your carpets flooded from storm damage, a broken water line, or a toilet ove
 
 Pathfinders Carpet Cleaning should be your first call when it comes to water damage restoration in [Friendswood](https://www.ci.friendswood.tx.us/). No matter what time day or night your water emergency happens, our team is on hand to assist you during your time of need. We are available for 24 hours, around-the-clock water restoration in Friendswood.
 
-![Friendswood pressure washing](/uploads/friendswood-pressure-washing.jpg "Friendswood Pressure Washing")
+![](/uploads/water-damage-restoration-friendswood.jpeg)
 
 ## We Also Offer Air Duct Cleaning Friendswood Services
 
@@ -20,7 +19,7 @@ When it comes to [water damage restoration](https://www.pathfinderscarpetcleanin
 
 From excess rain to a broken pipe or flood or plumbing failure, water damage can wreak havoc on your home and belongings as well as your business. When this happens, fast action is needed to dry out and restore water-damaged areas. If not done correctly or quickly, you could be spending thousands of dollars. Our water extraction technicians will extract the water from your carpet or hardwood floor and will try to save as much material as possible. They will also set up drying equipment to quickly dry the affected areas.
 
-![pressure washing Friendswood](/uploads/pressure-washing-friendswood.jpg "Pressure Washing Friendswood")
+![](/uploads/water-restoration-friendswood.jpeg)
 
 ### Expert Water Restoration Friendswood Residents Trust
 
