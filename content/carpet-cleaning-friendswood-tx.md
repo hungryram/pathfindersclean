@@ -23,6 +23,8 @@ Pathfinders use state-of-the-art truck-mounted/van-powered carpet upholstery cle
 
 If you need to have your carpet, rugs, or upholstery cleaned, don’t waste your time and money renting a carpet cleaning machine. Our professional steam cleaning services will get your furniture and carpets to the cleanest possible level. Even if you’re searching for just a rug cleaning in Friendswood, our pros can handle the job.
 
+![carpet cleaning Friendswood TX](/uploads/carpet-cleaning-friendswood-tx.jpeg "carpet cleaning Friendswood TX")
+
 ### Professional Carpet Cleaning and Rug Cleaning in Friendswood
 
 Many home and business owners who have searched for Friendswood carpet cleaning services near me have been impressed with our services. This is due to not only our impeccable customer service but also our use of the industry's latest and best equipment provided by the Butler Corporation - the leading and most trusted company in the industry.
