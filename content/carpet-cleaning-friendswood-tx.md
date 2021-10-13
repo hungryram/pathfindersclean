@@ -46,7 +46,7 @@ If you’ve been searching for the highest-rated Friendswood [carpet cleaning](h
 Other Services We Offer in Friendswood, TX:
 
 * [Pressure Washing](https://www.pathfinderscarpetcleaning.com/pressure-washing-friendswood-tx/)
-* [Water Damage Restoration](https://www.pathfinderscarpetcleaning.com/pressure-washing-friendswood-tx/water-damage-restoration-friendswood-tx)
+* [Water Damage Restoration](https://www.pathfinderscarpetcleaning.com/water-damage-restoration-friendswood-tx/)
 * Carpet Cleaning
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d111106.66655298551!2d-95.26004119385401!3d29.513930197075382!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86408ff668e6975f%3A0x95ffb1cfe5ee6acc!2sFriendswood%2C%20TX!5e0!3m2!1sen!2sus!4v1634134242188!5m2!1sen!2sus" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
