@@ -31,17 +31,17 @@ Many home and business owners who have searched for [Friendswood](https://www.be
 
 Pathfinders Carpet Cleaning also offers a wide range of additional cleaning services including [tile and grout cleaning](https://www.pathfinderscarpetcleaning.com/services/tile-grout-cleaning/) in Friendswood and commercial carpet cleaning in Friendswood as well as pet odor and stain removal, pressure washing services, and more. Whatever your professional carpet cleaning needs may be, we have the tech and team that can meet and exceed your expectations.
 
-### We also Offer Upholstery Cleaning and Air Duct Cleaning in Friendswood
+### We Also Offer Upholstery Cleaning and Tile Cleaning Cleaning in Friendswood
 
 Our commercial carpet cleaning in Friendswood includes air duct cleaning and air quality, water damage and extraction services, and much more! We will react fast for water extraction services as we know water damage can wreak havoc on your home or business. If necessary, we even work directly with you and your insurance agent to process the insurance claim. We’d be happy to discuss your specific needs and offer you a free cost estimate for your services.
 
-![](/uploads/tile-cleaning-friendswood.jpeg)
+![upholstery cleaning Friendswood](/uploads/tile-cleaning-friendswood.jpeg "upholstery cleaning Friendswood")
 
-### Call Today for Tile and Grout Cleaning and Water Damage Restoration in Friendswood, TX
+### Call Today for Tile and Grout Cleaning in Friendswood, TX
 
 Pathfinders Carpet Cleaning is proud to serve the town of Friendswood as well as its surrounding communities. Friendswood offers numerous historical and modern attractions such as the 1903 Perry House, the Frank J. Brown Museum, and outdoor activities at Stevenson Park.
 
-If you’ve been searching for the highest-rated Friendswood [carpet cleaning](https://www.pathfinderscarpetcleaning.com/services/carpet-upholstery/) near me, then it’s time you call our professional and experienced team. We offer the best carpet cleaning services in Friendswood and would be honored to be entrusted with your commercial or residential project. To work with our reliable team, get in touch by email or phone today!
+If you’ve been searching for the highest-rated Friendswood [carpet cleaning](https://www.pathfinderscarpetcleaning.com/services/carpet-upholstery/) near me, then it’s time you call our professional and experienced team. We offer the best carpet cleaning services in Friendswood and would be honored to be entrusted with your commercial or residential project. To work with our reliable team, get in touch by email or phone today! We look forward to providing you with our tile cleaning Friendswood and tile and grout cleaning Friendswood services!
 
 Other Services We Offer in Friendswood, TX:
 
