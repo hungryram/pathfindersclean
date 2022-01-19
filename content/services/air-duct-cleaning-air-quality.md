@@ -1,5 +1,5 @@
 +++
-body = "All vent covers scrubbed and entire system is cleaned from the inside and out with patented duct cleaning wizard machine. Creates and Allergy Free and Mold Free Environment.\n\n1 Unit Home is $299\n\n2 Unit Home is $599\n\n**Does Not Include Additional:**\n\n* Allergy Treatment\n* Mold Treatment"
+body = "All vent covers are scrubbed and the entire system is cleaned from the inside and out with a patented duct cleaning wizard machine. Creates an Allergy-Free and Mold Free Environment.\n\n1 Unit Home is $499\n\n2 Unit Home is $599\n\n**Does Not Include Additional:**\n\n* Allergy Treatment\n* Mold Treatment"
 featured_image = "/uploads/air-vent-cleaning2.jpg"
 heading = "Air Duct Cleaning & Air Quality"
 meta_description = ""
