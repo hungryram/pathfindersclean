@@ -6,7 +6,7 @@ meta_description = ""
 subtitle = "Furniture & Upholstery Cleaning"
 title = "Carpet & Upholstery"
 title_tag = ""
-
+weight = 3
 +++
 If you need to have your carpet, rugs, or upholstery cleaned, don’t waste your time and money renting a carpet cleaning machine. Our professional steam cleaning services will get your furniture and carpets their cleanest. Our service techs go the extra mile to ensure the job is done right the first time.
 

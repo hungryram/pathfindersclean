@@ -6,7 +6,7 @@ meta_description = "Steam Carpet Cleaning, Carpet Cleaning Services, Carpet Clea
 subtitle = "Persian Rugs, Oriental Rugs, Wool Rugs and More"
 title = "Rug Cleaning"
 title_tag = "PATHFINDERS Area oriental rug cleaning services"
-
+weight = 4
 +++
 #### Leave Your Area Rug Cleaning to the Pros at Pathfinders
 

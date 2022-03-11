@@ -1,0 +1,31 @@
+<div class="section">
+    <div class="container">
+        <div class="columns">
+            <div class="column has-text-centered is-half is-offset-one-quarter">
+                <h2 class="title is-2">Services</h2>
+                <p>Pathfinders Carpet Cleaning services specializes in full-service cleaning such as <strong>tile and grout</strong>, <strong>water restoration services</strong>, and <strong>more</strong>. <a href="/contact">Get in touch</a> with our team to inquire about our services</p>
+            </div>
+        </div>
+        <div class="columns is-multiline">
+          {{ range first 6 (where $.Site.RegularPages "Type" "services") }}
+          <div class="column is-4 more-services">
+            <a href="{{ .Permalink }}">
+                <div class="card">
+                    <div class="card-image">
+                      <figure class="image is-4by3">
+                        <img src="{{ .Params.featured_image }}" alt="{{ .Title }}" style="object-fit: cover;">
+                      </figure>
+                    </div>
+                    <div class="card-content">
+                      <div class="content has-text-centered">
+                        <h2 class="title is-6">{{ .Title }}</h2>
+                      </div>
+                    </div>
+                  </div>
+            </a>
+            </div>
+          {{ end }}
+
+        </div>
+    </div>
+</div>

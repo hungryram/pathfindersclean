@@ -6,7 +6,7 @@ meta_description = ""
 subtitle = "Houston 24HR Emergency Water Damage & Extraction Services"
 title = "Water Damage & Extraction Services"
 title_tag = ""
-
+weight = 2
 +++
 ### Our Water Removal and Water Extraction Process Includes:
 

@@ -6,7 +6,7 @@ meta_description = ""
 subtitle = "We are the Pasadena Pressure Washing Experts!"
 title = "Pressure Washing"
 title_tag = ""
-
+weight = 5
 +++
 #### Top Rated Pressure Washing Near Me in Pasadena
 

@@ -6,7 +6,7 @@ meta_description = ""
 subtitle = "Pathfinders restores all your ceramic tile and grout surfaces."
 title = "Tile & Grout Cleaning"
 title_tag = ""
-
+weight = 1
 +++
 #### Cleaning Solutions for All Tile Surfaces
 
